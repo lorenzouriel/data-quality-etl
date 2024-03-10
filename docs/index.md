@@ -3,7 +3,7 @@
 Para desenvolver o desafio de negocio, vamos montar a seguinte ETL
 
 ## Fluxo
-
+- ***Para desenvolver o ETL vamos utiliza esse fluxo***
 ```mermaid
 graph TD;
     A[Configura Variáveis] --> B[Ler o Banco SQL];
