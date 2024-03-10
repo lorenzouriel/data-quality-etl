@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "data-quality-wk02"
+version = "0.1.0"
+description = ""
+authors = ["Lorenzo Uriel <lorenzo.uriel@geosiga.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+taskipy = "^1.12.2"
+pytest = "^8.1.1"
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.13"
+mkdocstrings = {extras = ["python"], version = "^0.24.1"}
+mkdocs-mermaid2-plugin = "^1.1.1"
+isort = "^5.13.2"
+blue = "^0.9.1"
+md-mermaid = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.taskipy.tasks]
+test = "pytest tests -v"
+format = "blue . && isort ."
+docs = "mkdocs serve"
