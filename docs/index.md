@@ -6,7 +6,7 @@ Para desenvolver o desafio de negocio, vamos montar a seguinte ETL
 
 ```mermaid
 graph TD;
-    A [Configura Variáveis] --> B[Ler o Banco SQL];
+    A[Configura Variáveis] --> B[Ler o Banco SQL];
     B --> V[Validação do Schema de Entrada];
     V -->|Falha| X[Alerta de Erro];
     V -->|Sucesso| C[Transformar os KPIs];
