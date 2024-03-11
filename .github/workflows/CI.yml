@@ -18,6 +18,3 @@ jobs:
 
             - name: Instalar dependências com o Poetry
               run: poetry install
-
-            - name: Rodar minha ETL
-              run: poetry run python .\app\etl.py
