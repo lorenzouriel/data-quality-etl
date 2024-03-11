@@ -1,6 +1,6 @@
 # Criando uma ETL com Data Quality
 
-Visite minha documentacao
+Visite minha documentacao aqui: https://lorenzouriel.github.io/data-quality-wk02/
 
 [![image](/pic/image.png)](https://lorenzouriel.github.io/data-quality-wk02/)
 
