@@ -2,7 +2,7 @@
 
 Visite minha documentacao
 
-[![image](/pic/print.png)](https://lorenzouriel.github.io/data-quality-wk02/)
+[![image](/pic/image.png)](https://lorenzouriel.github.io/data-quality-wk02/)
 
 
 1. Clone o repositório:
