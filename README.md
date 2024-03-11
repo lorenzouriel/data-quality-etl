@@ -8,8 +8,8 @@ Visite minha documentacao
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/lvgalvao/workshop_02_aovivo.git
-cd workshop_02_aovivo
+git clone https://github.com/lorenzouriel/data-quality-wk02.git
+cd data-quality-wk02
 ```
 
 2. Configure a versão correta do Python com `pyenv`:
