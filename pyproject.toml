@@ -18,12 +18,12 @@ blue = "^0.9.1"
 md-mermaid = "^0.1.1"
 sqlalchemy = "^2.0.28"
 python-dotenv = "^1.0.1"
-schema = "^0.7.5"
 pandas = "^2.2.1"
 pandera = "^0.18.0"
 psycopg2 = "^2.9.9"
 frictionless = "^5.16.1"
 pyaml = "^23.12.0"
+duckdb = "^0.10.0"
 
 
 [build-system]
